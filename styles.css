@@ -7,9 +7,63 @@
     padding: 0;
     font-family: 'poppins',sans-serif;
 }
-nav{
+.navbar-brand{
     color: var(--primary-color);
+    font-size: 2rem;
 }
-body{
-    background: url('https://wallpaperaccess.com/full/97837.jpg')no-repeat;
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: white;
+    font-weight: 400;
+}
+.main{
+    background: url(/img/main.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.67);
+    transition: 0.7s;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-left: 520px;
 }
