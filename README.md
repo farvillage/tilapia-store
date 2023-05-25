@@ -1,4 +1,4 @@
-# Tilapia's Store
+# Tilápia Store
 
 <div align="center">
   <a href="#">
