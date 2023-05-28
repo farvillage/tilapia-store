@@ -46,8 +46,7 @@
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: #000; /* cor da borda */
+    text-shadow: 1px 1px black;
 }
 .main h1{
     font-size: 4rem;
