@@ -11,17 +11,18 @@
     color: var(--primary-color);
     font-size: 2rem;
 }
-.navbar-brand:hover{
-    color: black;
-}
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
+    border-radius: 10px;
     color: black;
     text-transform: uppercase;
 }
 .nav-link:hover{
-    color: black;
+    background-color: #3065AD;
+    border-radius: 10px;
+    max-width: 100%;
+    transition: background-color 700ms ease-in-out;
 }
 .search{
     height: 40px;
