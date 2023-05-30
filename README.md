@@ -2,7 +2,10 @@
 Projeto para a cadeira de Tecnologia para Front-End.
 
 ## O que é "Tilápia Store"?
-Consiste em uma aplicação Web de uma 'loja' de ferramentas e produtos relacionados a pesca, sendo o principal foco em tilápias.
+Consiste em uma Aplicação Web de uma 'loja' de ferramentas e produtos relacionados a pesca, sendo o principal foco em tilápias.
+<br>
+<br>
+[Deploy no Vercel](https://tilapia-store.vercel.app/)
 
 ## Linguagens:
 <div>

@@ -46,6 +46,7 @@
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
+    text-shadow: 2px 2px black;
 }
 .main h1{
     font-size: 4rem;
