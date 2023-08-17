@@ -76,3 +76,10 @@
     color: black;
     text-transform: uppercase; 
 }
+.product-price{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
