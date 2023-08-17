@@ -28,7 +28,7 @@ addToCartButtons.forEach((button, index) => {
 
     // Recalculate and update total
     total += productPrice;
-    cartTotal.textContent = `R$${total.toFixed(2)}`;
+    cartTotal.textContent = `R$${total.Reais(2)}`;
   });
 });
 
@@ -37,7 +37,7 @@ function updateCartUI() {
   cartItems.innerHTML = '';
   cart.forEach(item => {
     const li = document.createElement('li');
-    li.textContent = `${item.name} x${item.quantity} - $${(item.price * item.quantity).toFixed(2)}`;
+    li.textContent = `${item.name} x${item.quantity} - R$${(item.price * item.quantity).Reais(2)}`;
     cartItems.appendChild(li);
   });
 }
