@@ -81,7 +81,6 @@
     margin-left: 10px;
     border-radius: 10px;
     color: black;
-    text-transform: uppercase;
 }
 .add-to-cart{
     margin-top: 5px;
@@ -92,5 +91,5 @@
     background-color: var(--primary-color);
 }
 .cart{
-    
+
 }
