@@ -1,5 +1,5 @@
 // Get product elements and cart elements
-const products = document.querySelectorAll('.product');
+const products = document.querySelectorAll('.shop');
 const addToCartButtons = document.querySelectorAll('.add-to-cart');
 const cartItems = document.getElementById('cart-items');
 const cartTotal = document.getElementById('cart-total');
