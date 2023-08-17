@@ -69,3 +69,10 @@
     cursor: pointer;
     margin-left: 500px;
 }
+.product-name{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase; 
+}
