@@ -28,7 +28,7 @@ addToCartButtons.forEach((button, index) => {
 
     // Recalculate and update total
     total += productPrice;
-    cartTotal.textContent = `$${total.toFixed(2)}`;
+    cartTotal.textContent = `R$${total.toFixed(2)}`;
   });
 });
 
