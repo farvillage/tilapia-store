@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [],
+    "routes": [
+    { "src": "/products", "dest": "/products.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+    ]
+}
