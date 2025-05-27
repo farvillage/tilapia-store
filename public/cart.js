@@ -47,4 +47,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderCart();
 });
 
+window.addToCart = addToCart;
 console.log('cart is loaded', cart);
